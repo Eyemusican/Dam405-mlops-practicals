@@ -10,12 +10,14 @@ achieves at least 80% accuracy, using a standard, testable project structure.
 
 ## Project structure
 
+```
 mlops-lab1/
 ├── src/            # source code (model.py)
 ├── tests/          # tests (test_model.py)
 ├── requirements.txt
 ├── Makefile
 └── .github/workflows/ci.yml
+```
 
 ## Setup
 

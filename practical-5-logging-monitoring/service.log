@@ -1,0 +1,62 @@
+2026-10-19 12:00:18,681 | INFO | model loaded from model.joblib
+2026-10-19 12:00:18,684 | INFO | starting ml-service on port 5000
+2026-10-19 12:02:28,333 | INFO | health check called
+2026-10-19 12:06:42,236 | INFO | model loaded from model.joblib
+2026-10-19 12:06:42,238 | INFO | starting ml-service on port 5000
+2026-10-19 12:07:05,301 | INFO | prediction=0 latency_ms=29.9
+2026-10-19 12:08:48,565 | ERROR | prediction failed: 'features'
+2026-10-19 12:12:10,342 | INFO | model loaded from model.joblib
+2026-10-19 12:12:10,344 | INFO | starting ml-service on port 5000
+2026-10-19 12:12:33,299 | DEBUG | request features: {'features': [6.7, 3.0, 5.2, 2.3]}
+2026-10-19 12:12:33,320 | INFO | prediction=2 latency_ms=21.5
+2026-10-19 12:15:08,174 | INFO | model loaded from model.joblib
+2026-10-19 12:15:08,175 | DEBUG | detailed diagnostics for developers
+2026-10-19 12:15:08,175 | INFO | normal event - service handled a request
+2026-10-19 12:15:08,175 | WARNING | unexpected input but still handled
+2026-10-19 12:15:08,175 | ERROR | a request failed
+2026-10-19 12:15:08,176 | CRITICAL | service cannot continue
+2026-10-19 12:16:56,906 | INFO | model loaded from model.joblib
+2026-10-19 12:16:56,907 | INFO | normal event - service handled a request
+2026-10-19 12:16:56,907 | WARNING | unexpected input but still handled
+2026-10-19 12:16:56,907 | ERROR | a request failed
+2026-10-19 12:16:56,908 | CRITICAL | service cannot continue
+2026-10-19 13:20:44,367 | INFO | model loaded from model.joblib
+2026-10-19 13:20:44,369 | INFO | starting ml-service on port 5000
+2026-10-19 13:21:03,010 | INFO | prediction=0 latency_ms=112.5
+2026-10-19 13:21:03,028 | INFO | prediction=2 latency_ms=11.7
+2026-10-19 13:21:03,045 | INFO | prediction=1 latency_ms=13.2
+2026-10-19 13:21:03,064 | INFO | prediction=0 latency_ms=14.4
+2026-10-19 13:21:03,068 | ERROR | prediction failed: 'features'
+2026-10-19 13:22:39,176 | INFO | model loaded from model.joblib
+2026-10-19 13:22:39,178 | INFO | starting ml-service on port 5000
+2026-10-19 13:22:39,331 | INFO | starting ml-service on port 5000
+2026-10-19 13:22:55,096 | INFO | model loaded from model.joblib
+2026-10-19 13:22:55,098 | INFO | starting ml-service on port 5000
+2026-10-19 13:23:08,101 | INFO | prediction=0 latency_ms=28.4
+2026-10-19 13:23:08,118 | INFO | prediction=2 latency_ms=11.4
+2026-10-19 13:23:08,138 | INFO | prediction=1 latency_ms=14.1
+2026-10-19 13:23:08,155 | INFO | prediction=0 latency_ms=11.7
+2026-10-19 13:23:08,160 | ERROR | prediction failed: 'features'
+2026-10-19 13:23:08,160 | INFO | requests=5 errors=1 avg_latency_ms=13.2
+2026-10-19 13:23:08,166 | INFO | requests=5 errors=1 avg_latency_ms=13.2
+2026-10-19 13:24:04,491 | INFO | requests=5 errors=1 avg_latency_ms=13.2
+2026-10-19 13:30:03,304 | INFO | model loaded from model.joblib
+2026-10-19 13:30:03,307 | INFO | starting ml-service on port 5000
+2026-10-19 13:30:25,835 | INFO | prediction=0 latency_ms=21.4
+2026-10-19 13:30:25,858 | INFO | prediction=0 latency_ms=17.8
+2026-10-19 13:30:25,877 | INFO | prediction=1 latency_ms=14.0
+2026-10-19 13:30:25,893 | INFO | prediction=1 latency_ms=12.1
+2026-10-19 13:30:25,909 | INFO | prediction=2 latency_ms=12.1
+2026-10-19 13:30:25,910 | INFO | requests=5 errors=0 avg_latency_ms=15.5
+2026-10-19 13:30:25,925 | INFO | prediction=2 latency_ms=11.3
+2026-10-19 13:30:25,930 | INFO | drift check on last 6 requests
+2026-10-19 13:33:32,677 | INFO | prediction=2 latency_ms=16.1
+2026-10-19 13:33:32,810 | INFO | prediction=2 latency_ms=11.8
+2026-10-19 13:33:32,829 | INFO | prediction=2 latency_ms=13.6
+2026-10-19 13:33:32,852 | INFO | prediction=2 latency_ms=17.2
+2026-10-19 13:33:32,852 | INFO | requests=10 errors=0 avg_latency_ms=14.8
+2026-10-19 13:33:32,874 | INFO | prediction=2 latency_ms=16.3
+2026-10-19 13:33:32,892 | INFO | prediction=2 latency_ms=13.1
+2026-10-19 13:33:32,896 | INFO | drift check on last 12 requests
+2026-10-19 13:33:32,897 | WARNING | possible drift in petal_length: live=5.167 train=3.758 change=37%
+2026-10-19 13:33:32,898 | WARNING | possible drift in petal_width: live=1.833 train=1.199 change=53%
